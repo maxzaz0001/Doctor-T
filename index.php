@@ -127,7 +127,11 @@
                                         $end = $box*$limit;
                                         $frame = reviews_list_page($start.','.$end);
                                     }
-//maxzaz
+<<<<<<< HEAD
+
+=======
+//ครีม
+>>>>>>> a84121e8d3a925e4c1b1db66d3ab7407785a51f4
                                     if(!empty($frame)){
                                         foreach ($frame as $_frame) {
                                             echo '
@@ -168,6 +172,7 @@
                         ?>
 
                     </div>
+                    //maxzaz
                           
                     <!------------------------------end------------------------->
 
