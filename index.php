@@ -127,7 +127,7 @@
                                         $end = $box*$limit;
                                         $frame = reviews_list_page($start.','.$end);
                                     }
-
+//max
                                     if(!empty($frame)){
                                         foreach ($frame as $_frame) {
                                             echo '
@@ -164,7 +164,6 @@
                                 </div>';
 
                         }
-//maxzaz
                         ?>
 
                     </div>
